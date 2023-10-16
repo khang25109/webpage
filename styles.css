@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  
+}
+
+h1 {
+  color:rgb(4, 154, 173);
+}
+h2 {
+  color:rgb(4, 154, 173);
+}
+main {
+  width: 100%;
+  float: left; /* Float the main section to the left */
+}
+.menu {
+  background-color: #333;
+}
+
+.menu ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.menu ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+/* Set the width of the aside section to 20% of the screen width */
+aside {
+  width: 100%;
+  float: left; /* Float the aside section to the left */
+}
+footer {
+  clear: both; /* Clear floats to ensure the footer appears below both main and aside sections */
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
+
+.search-box input[type="text"] {
+  padding: 5px;
+  border: none;
+  margin-right: 5px;
+}
+.search-box button {
+  padding: 6px 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background-color: #45a049;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table td {
+  border: 1px solid #08f1ab;
+  padding: 10px;
+  text-align: center;
+}
+
+table button {
+  padding: 8px 16px;
+  border: none;
+  background-color: hsl(122, 85%, 36%);
+  color: #f3f2f2;
+  cursor: pointer;
+}
+
+table button:hover {
+  background-color: #456ca0;
+}
+.product{
+  
+    width: 20px; /* Set the width to 300 pixels */
+    height: 10px; /* Set the height to 200 pixels */
+}
+.header{
+  background-color: #090707; /* Background color for the header */
+     /* Use flexbox layout */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 100px; /* Set a fixed height for the header */
+  
+}
+.logo img {
+  margin-left: 45%;
+  max-width: 10%; /* Ensure the logo doesn't exceed its original size */
+  height: auto; /* Maintain the aspect ratio of the logo */
+  position:inherit;
+  
+}
