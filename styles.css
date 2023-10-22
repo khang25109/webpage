@@ -7,15 +7,21 @@ header {
   color: #fff;
   padding: 10px;
   text-align: center;
-  
 }
+
 .logo img {
-  width: 100px; /* Ensure the logo doesn't exceed the container's width */
+  width: 100px; 
+  margin-top: 5px;
+  margin-bottom: 5px;
+
 }
+
 img {
   width: 100%;
 }
+
 #search-box {
+  margin-top: 10px;
   padding: 8px;
   margin-right: 10px;
   border: 1px solid #ccc;
@@ -25,7 +31,7 @@ img {
 
 #search-button {
   padding: 8px 20px;
-  background-color: #333;
+  background-color: #6f6f6f;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -33,14 +39,20 @@ img {
 }
 
 #search-button:hover {
-  background-color: #555;
+  background-color: #565555;
+  transition: 0.15s;
 }
+
+#serch-button:active{
+  background-color: black;
+}
+
 #checkout-button {
   padding: 8px 20px;
   background-color: #333;
   color: #fff;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
@@ -73,26 +85,10 @@ nav ul li a {
 
 
 main {
-  display: grid;
-  flex-wrap: wrap; 
-  background-image: url(backgroundLambor1.png);
+  flex: 0 0 100%;
+  background-image: url(img/backgroundLambor1.png);
   background-repeat: no-repeat;
   background-size: cover;
-
-}
- 
-.product1{
-  background-image: url(lamboProduct.webp);
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 50%;
-
-}
-.product2{
-  background-image: url(lamboProduct.webp);
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 50%;
 
 }
 
@@ -104,27 +100,105 @@ main {
   position: sticky;
   bottom: 0;
 
- 
+}
+#h1-p{
+  margin-left: 100px;
+}
+#news-p  {
+  font-size: 5rem;
+  margin-left: 100px;
+  font-weight: bold;
+  line-height: 1.08;
 
 }
+#title-news{
+  font-size: x-large;
+  margin-left: 100px;
+  font-weight: bold;
+}
+.date{
+  margin-left: 100px;
+  font-weight: normal;
+}
+.content-main{
+  display: flex;
+  margin-bottom: 40px;
+  
+}.content-main2{
+  display: flex;
+  
+}
 
+.img-content1{
+  margin-left: 100px;
+  width: 700px;
+  height: auto;
+  margin-right: 50px;
+  margin-top: 18px;
+  
+}
+#content-button{
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+}
+#content-button:hover{
+  background-color: white;
+  color:black;
+  cursor: pointer;
+  transition: 0.20s;
+}
+#content-button:active{
+  background-color: #555;
+}
+.text-content{
+  font-size: x-large;
+  font-weight: bold;
+}
+#bottom-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  font-size: 16px;
+  height: 200px;
+}
+.button-end{
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+}
+.button-end:hover{
+  background-color: white;
+  color:black;
+  cursor: pointer;
+  transition: 0.20s;
+}
+.button-end:active{
+  background-color: #555;
+}
 aside {
-  display: block;
-  position: absolute;
+  position: fixed;
+  top: 264px;
   right: 0;
   background-color: lightgray;
   padding: 20px;
   box-sizing: border-box;
+
 }
 
 footer {
   background-color: #333;
   color: #fff;
   text-align: center;
-  padding: 10px;
+  padding: 2px;
   position: fixed;
   bottom: 0;
   width: 100%;
+
+  
 }
 body, html {
   margin: 0;
@@ -143,6 +217,7 @@ main {
 
   #content {
       width: 80%;
+      height: 100%;
   }
 
   aside {
